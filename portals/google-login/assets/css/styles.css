@@ -98,7 +98,7 @@ button:focus {
 .guest{
 	margin-top: 50px;
 	color: #5f6368;
-	font-size: 16px;
+	font-size: 15px;
 }
 
 .learn {
@@ -108,7 +108,7 @@ button:focus {
 .create{
 	margin-top: 50px;
 	font-size: 16px;
-	display: inline-block;
+	display: inline-flex;
 }
 
 a, a:hover {
