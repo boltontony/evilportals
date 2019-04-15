@@ -13,7 +13,7 @@ body {
 	color: #000;
 	font-family: 'GoogleSans-Regular';
 	font-size: 14px;
-	font-weight: 300;
+	font-weight: 400;
 	text-align: center;
 	padding: 25px 40px;
 	height: 100%;
@@ -44,16 +44,16 @@ h2 {
 	font-family: roboto,'Noto Sans Myanmar UI',arial,sans-serif;
 	font-size: 19px;
 	font-weight: 400;
-	margin-bottom: 70px;
+	margin-bottom: 40px;
 	letter-spacing: .1px;
 	line-height: 1.5;
 }
 
 p {
 	font-family: 'GoogleSans-Regular';
-	font-size: 13px;
+	font-size: 16px;
 	font-weight: 300;
-	margin-top: 70px;
+	/* margin-top: 70px; */
 }
 
 input {
@@ -83,27 +83,57 @@ button:focus {
 	margin-top: 10px;
 }
 
+.forgot {
+	    display: inline-block;
+	    font-weight: 600;
+	    letter-spacing: .25px;
+	    background-color: transparent;
+	    cursor: pointer;
+	    font-size: 15px;
+	    outline: 0;
+	    padding: 0;
+	    text-align: left;
+}
+
+.guest{
+	margin-top: 50px;
+	color: #5f6368;
+	font-size: 16px;
+}
+
+.learn {
+	font-weight: 400;
+}
+
+.create{
+	margin-top: 50px;
+	font-size: 16px;
+	display: inline-block;
+}
+
 a, a:hover {
 	color: #1a73e8;
 	text-decoration: none;
 }
 
 button {
+	letter-spacing: .25px;
 	font-size: 13px;
 	font-weight: 400;
+	font-family: 'GoogleSans-Regular';
 	border: none;
-	border-radius: 3px;
+	border-radius: 4px;
 	color: #fff;
 	background-color: #1a73e8;
 	box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px 0px;
 	padding: 10px 23px;
-	margin-top: -14px;
+	margin-top: 0px;
 	cursor: pointer;
 }
 
 footer {
 	width: 100%;
-	margin: 60px auto;
+	margin: 120px auto;
 	text-align: left;
 	font-size: 12px;
 	font-weight: 300;
@@ -129,4 +159,31 @@ footer span { color: #7e7e7e }
 		width: 450px;
 		margin-top: 25px;
 	}
+}
+
+.button {
+	display: inline-flex;
+	margin-left: 100px;
+}
+
+.language {
+	color: #202124;
+	display: inline-block;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.arrow {
+	color: #202124;
+	font-size: 12px;
+	margin-left: 10px;
+	display: inline-block;
+}
+
+.help, .privacy, .terms {
+	color: #757575;
+	display: inline;
+	margin-right: 30px;
+	font-size: 13px;
+	font-weight: 600;
 }

